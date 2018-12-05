@@ -1,0 +1,330 @@
+/* Mobile layout, large screens*/
+
+@media only screen and (max-width: 990px) {
+
+	body {
+		overflow-x: hidden;
+		min-width: 100%;
+	}
+
+	#page div.container {
+		width: 100%;
+		box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+		padding: 20px;
+	}
+
+	#page #content {
+		background: url("../images/bg-content-narrow.jpg") repeat-y scroll right top transparent;
+	}
+
+	#content #left-col {
+		display: table-cell;
+		float: none;
+		max-width: 100%;
+		padding-right: 20px;
+	}
+
+	#content #right-col {
+		width: 255px;
+	}
+
+	#content .content-bg {
+		width: 200px;
+		height: auto;
+		margin-top: -10px;
+	}
+
+	#content .mobile-buttons {
+	  text-align: center;
+		display: table;
+		width: 100%;
+	}
+
+	#content .mobile-buttons a {
+		display: table-cell;
+		border: 0;
+	}
+
+	#content .mobile-buttons.two-buttons a {
+		width: 50%;
+	}
+}
+
+/* Mobile layout, medium screens*/
+
+@media only screen and	(max-width: 720px) {
+
+	h1 {
+    font-size: 2.2em;
+    font-weight: 600;
+	}
+
+	#content .container, #content #left-col, #content #right-col {
+		display: block;
+	}
+
+	#page #content div.container {
+		width: auto;
+		float: none;
+		padding: 0;
+	}
+
+	#header div.container {
+		padding: 1em;
+	}
+
+	#page #content {
+		background: #fff;
+	}
+
+	#content .content-bg {
+		width: 160px;
+		height: auto;
+		margin-top: -10px;
+	}
+
+	#content p {
+		margin: 15px 0;
+	}
+
+	#content #left-col {
+		padding: 1.1em 1em 1.2em 1em;
+		margin: 0;
+		width: auto;
+		float: none;
+	}
+
+	#content #right-col {
+		margin: 0;
+		width: auto;
+		float: none;
+		background-color: #efefef;
+		padding: 1.2em 1em;
+		box-shadow: inset 0px 20px 20px -20px rgba(0, 0, 0, 0.05);
+	}
+
+	#content .notification,
+	#content #extra-notes {
+		margin-bottom: 1.25em;
+	}
+
+	#page #content .mobile-buttons a {
+		background-color: #F5F5F5;
+    background-image: linear-gradient(top, #fff, #e3e3e3);
+	    background-image: -webkit-linear-gradient(top, #fff, #e3e3e3);
+	    background-image: -moz-linear-gradient(top, #fff, #e3e3e3);
+	    background-image: -ms-linear-gradient(top, #fff, #e3e3e3);
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    border-color: #aaa #bbb #aaa #bbb;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    padding: 9px 13px 7px 13px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    font-size: .9em;
+    font-weight: normal;
+	}
+		/* IE9 Fix */
+		.ie9 #page #content .mobile-buttons a {
+			background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImcyODgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+CjxzdG9wIHN0b3AtY29sb3I9IiNGRkZGRkYiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNFM0UzRTMiIG9mZnNldD0iMSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2cyODgpIiAvPgo8L3N2Zz4=);
+		}
+
+	#page #content .mobile-buttons a:first-child {
+    border-radius: 4px 0 0 4px;
+    border-left-width: 1px;
+	}
+
+	#page #content .mobile-buttons a:last-child {
+    border-radius: 0 4px 4px 0;
+	}
+
+	#page #content .mobile-buttons a:hover,
+	#page #content .mobile-buttons a:focus {
+	  background: #e3e3e3;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2) inset;
+    padding: 10px 12px 6px 14px;
+	}
+
+	#page #content .mobile-buttons a {
+	  color: #222;
+	  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	}
+
+	#page #content .mobile-buttons a:hover {
+	  text-decoration: none;
+	}
+
+	#login #submit:hover,
+	#login #submit:focus {
+		background: #880000;
+		border-color: #770000;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	}
+
+	#login fieldset input:hover+label.osu-radio,
+	#login fieldset label.osu-radio:hover {
+		background: #e3e3e3;
+	  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2) inset;
+	}
+
+}
+
+/* Footer Mobile layout, changes when it would otherwise float below*/
+@media only screen and	(max-width: 660px) {
+
+	#footer-logo {
+		display: inline;
+		margin-left: 0;
+	}
+
+	#footer-logo img {
+		display: inline
+	}
+
+	#footer-content {
+		float: none;
+		margin: 10px 0 0 0 ;
+	}
+}
+
+/* Mobile layout, small screens*/
+@media only screen and	(max-width: 560px) {
+	#content .content-bg {
+		display:none;
+	}
+
+	#footer p {
+  	margin-top: 1em;
+  }
+
+}
+
+/* Header & Form Mobile Portrait layout, at really small screens*/
+@media only screen and	(max-width: 460px) {
+  .mobile-visible {
+  	display: inherit;
+  }
+
+  .mobile-hidden {
+  	display: none;
+  }
+
+	#page #header {
+		padding-top: 0;
+	}
+
+	#header div.container {
+		padding: 1em;
+	}
+
+	#header h1 {
+		margin-top: 0;
+		font-size: 1.8em;
+	}
+
+	#header a {
+		display: none;
+	}
+
+	#content .referrer {
+		display: none;
+	}
+
+	#login fieldset label.osu-text,
+	#login fieldset legend.osu-radio {
+		float: none;
+		width: 100%;
+		padding: 0 0 .5em 0;
+	}
+
+	#login fieldset input.osu-radio {
+		position: absolute;
+		left: -99999px;
+	}
+
+	#login fieldset label.osu-radio {
+		left: 0;
+		width: 50%;
+		padding: .8em 1em .6em 1em;
+		box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+	}
+
+	#login fieldset label.osu-radio-last {
+		position: absolute;
+		left: 50%;
+	}
+
+	#login fieldset input.osu-text {
+		margin-left: 0;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	#login fieldset .controlgroup {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	#login fieldset .helpCaption {
+		margin-left: 0;
+		width: 100%;
+		display: none;
+	}
+
+	#login #submit {
+		display: block;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#footer-container {
+		padding: 1em;
+	}
+
+  #footer-content {
+  	font-size: 1em;
+  }
+
+	#footer-logo,
+	#footer-logo img {
+		max-width: 100%;
+	}
+}
+
+/* Retina icons */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2) {
+
+	#content .capsule-status .capsule-left {
+    background-image: url("../images/icon-status-2x.png") !important;
+			-webkit-background-size: 29px 26px;
+			-moz-background-size: 29px 26px;
+		background-size: 29px 26px;
+	}
+
+	#content .notification.error {
+		background-image: url('../images/dialog_error@2x.png');
+		background-size: 20px 20px;
+	}
+
+	#content .notification.info {
+		background-image: url('../images/emblem_important@2x.png');
+		background-size: 20px 20px;
+	}
+
+	#header-logo .osu-logo {
+    background-image: url('../images/osu-web-header-stacked@2x.png');
+  }
+
+  #footer-logo .osu-logo {
+    background-image: url('../images/osu-web-footer@2x.png');
+  }
+}
