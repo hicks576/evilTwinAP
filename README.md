@@ -1,8 +1,12 @@
 # Evil Twin AP Attack
 Usage: python attack.py <AP-name> <AP-MAC-address> <AP-channel-#> [-mac | -ip] <target-MAC/IP>
 
+
+First, run the attack script. This will output two commands for you to run in two new terminals. Start the new AP first (airbase-ng command), then deauthenticate the specific user (aireplay-ng command).
+
+
 ## Example
-python attack.py osuwireless 94:B4:0F:AD:ED:00 1 -ip <IP-address>
+python attack.py osuwireless 94:B4:0F:AD:ED:00 1 -ip [IP-address]
 
 ## Description
 Our project is a Evil Twin AP attack. We force a specific user (or everyone on a WiFi network) off of their current WiFi network and make them reconnect to our fake WiFi network with the same name. We ran into the following issues:
