@@ -12,6 +12,12 @@ Our project is a Evil Twin AP attack. We force a specific user (or everyone on a
 
 We tried to use MITMf to create a DHCP server that would direct the user to the fake Carmen webpage so that we could steal their password. Setting up the virtual environment for MITMf proved to be a challenge and we were not able to get it working. However, if this tool worked, it would allow us to direct the user to a fake Carmen webpage in order to steal their information.
 
+
+
 Individual Contributions
+
+
 Adam - Created the fake Carmen webpage, bought the wireless adapters, troubleshooted adapters frequently, aided in the script design and video making process, troubleshooted DHCP issues
+
+
 Scott - Created the start up scripts, aided in video making process, troubleshooted DHCP issues
