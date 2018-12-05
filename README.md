@@ -28,3 +28,12 @@ Adam - Created the fake Carmen webpage, bought the wireless adapters, troublesho
 
 
 Scott - Created the start up scripts, aided in video making process, troubleshooted DHCP issues
+
+
+## YouTube Links
+https://www.youtube.com/watch?v=iMn8QYv1_Hk
+
+https://www.youtube.com/watch?v=jM_BtMD4M4k
+
+https://www.youtube.com/watch?v=YI_Awuynnlc
+
